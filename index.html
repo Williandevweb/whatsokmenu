@@ -14,7 +14,7 @@
 
 	<script>
 		$(document).ready(function() {
-			var socket = io('http://185.188.249.15:8009');
+			var socket = io('https://apiokmenuwhats.alavancaweb.com.br');
 
 			socket.on('init', function(data) {
 				$('#qrcode').attr('src', data);
